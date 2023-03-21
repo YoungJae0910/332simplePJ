@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import { v4 as uuid } from "uuid";
 
 export default function SignUp() {
   const navigate = useNavigate();
@@ -25,6 +26,7 @@ export default function SignUp() {
   };
 
   const newUser = {
+    uuid: uuid(),
     id,
     pw,
     phoneNum,

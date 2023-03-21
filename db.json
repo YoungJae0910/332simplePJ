@@ -1,14 +1,10 @@
 {
   "user": [
     {
-      "id": "dbdudwo122",
-      "pw": "123123",
-      "phoneNum": "010"
-    },
-    {
-      "id": "test1234",
-      "pw": "123123",
-      "phoneNum": "010"
+      "uuid": "d56cfb7c-518d-4c86-ad22-4abca7ece497",
+      "id": "12314",
+      "pw": "123",
+      "phoneNum": "123"
     }
   ]
 }
